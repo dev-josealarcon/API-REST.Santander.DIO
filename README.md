@@ -43,3 +43,11 @@ classDiagram
 
 
 ```
+
+
+## API Documentation  (Swagger)
+https://api-restsantanderdio-production.up.railway.app
+
+This API will be available on Railway for a limited period of time, but this is open source.
+
+Production URL: https://api-restsantanderdio-production.up.railway.app/users/1
