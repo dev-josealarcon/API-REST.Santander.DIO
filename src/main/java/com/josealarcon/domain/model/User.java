@@ -4,10 +4,10 @@ import jakarta.persistence.*;
 
 import java.util.List;
 
-@Entity(name= "tb_user")
+@Entity(name = "tb_user")
 public class User {
     @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
 

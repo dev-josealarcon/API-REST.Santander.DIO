@@ -7,7 +7,7 @@ spring:
     show-sql: true
     open-in-view: false
     hibernate:
-      ddl-auto: create # validate ♀4update | created | create-drop
+      ddl-auto: create # validate | update | created | create-drop
     properties:
       hibernate:
         format-sql: true

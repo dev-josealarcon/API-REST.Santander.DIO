@@ -3,7 +3,7 @@ package com.josealarcon.domain.model;
 import jakarta.persistence.Entity;
 
 
-@Entity(name= "tb_feature")
+@Entity(name = "tb_feature")
 public class Feature extends BaseItem{
 
  }

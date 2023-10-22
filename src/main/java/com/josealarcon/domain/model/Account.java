@@ -4,10 +4,10 @@ import jakarta.persistence.*;
 
 import java.math.BigDecimal;
 
-@Entity(name= "tb_account")
+@Entity(name = "tb_account")
 public class Account {
     @Id
-    @GeneratedValue(strategy= GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(unique = true)
@@ -16,7 +16,7 @@ public class Account {
     //99999999999.99
     @Column(precision=13, scale = 2)
     private BigDecimal balance;
-    @Column(name="additional_limit",precision=13, scale = 2)
+    @Column(name = "additional_limit", precision=13, scale = 2)
     private BigDecimal limit;
 
     public Long getId() {
